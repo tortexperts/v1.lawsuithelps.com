@@ -10,7 +10,7 @@ jQuery(function() {
         // Show the page content
         jQuery(".content").show();
             jQuery.each(data,function (k,v){
-                console.log(k);
+                console.log(k,v);
                 jQuery("#verticals").append(`   <div class="bg-white p-0 shadow-lg rounded flex flex-col">
                     <h3 class="flex items-center justify-center text-xl p-8 font-semibold mb-0 col-heading">${v.name}</h3>
                     <img src="assets/images/${v.vertical_id}.png" alt="Image 1" class="mb-2">
