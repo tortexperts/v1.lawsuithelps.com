@@ -13,7 +13,7 @@ jQuery(function() {
                 console.log(k);
                 jQuery("#verticals").append(`   <div class="bg-white p-0 shadow-lg rounded flex flex-col">
                     <h3 class="flex items-center justify-center text-xl p-8 font-semibold mb-0 col-heading">${v.name}</h3>
-                    <img src="assets/images/${k}.png" alt="Image 1" class="mb-2">
+                    <img src="assets/images/${v.vertical_id}.png" alt="Image 1" class="mb-2">
                     <p class="text-l font-medium leading-6 p-4 text-center mb-2">${v.title}</p>
                     <p class="text-sm font-light px-4 pb-4 text-center mb-4">${v.desc}</p>
                     <div class="flex pb-8 items-center justify-center mt-auto">
