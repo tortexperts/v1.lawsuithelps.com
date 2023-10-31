@@ -19,7 +19,7 @@ jQuery(function() {
                     <div class="flex pb-8 items-center justify-center mt-auto">
              <a href="${v.link}" class="flex items-center hover:bg-blue-700 text-white font-bold py-2 px-4 rounded button">
                             <img src="assets/images/up-left-arrow 1.png" alt="Logo" class="h-6 mx-2">
-                            SEE IF I QUALIFY
+                            SEE IF I QUALIFY 
                         </a>
                     </div>
                 </div>
