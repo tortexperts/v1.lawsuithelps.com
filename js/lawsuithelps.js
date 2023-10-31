@@ -4,7 +4,7 @@ const urlParams = new URLSearchParams(queryString);
 jQuery(function() {
     console.log( "ready!" );
 
-    jQuery.getJSON('https://devops.tortexperts.com/api/listicle'+queryString, function (data) {
+    jQuery.getJSON('https://api.totalinjuryhelp.com/api/listicle'+queryString, function (data) {
         jQuery(".loader-wrapper").hide();
 
         // Show the page content
