@@ -23,14 +23,14 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 .banner-content h1 {
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 600;
   color: #FF0000;
   text-transform: uppercase;
 }
 
 .banner h2{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
   color:#0062A9;
