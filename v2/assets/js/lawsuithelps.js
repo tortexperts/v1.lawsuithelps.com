@@ -18,7 +18,7 @@ jQuery(function() {
                         <h3 class="absolute top-30 left-0 right-0 bottom-10 flex items-center justify-center text-xl font-semibold mb-0 col-title">${v.name}</h3>
                     </div>
                     <p class="text-l font-medium leading-6 p-4 text-left mb-2">${v.title}</p>
-                    <div class="flex-grow"></div><!-- Test -->
+                    <div class="flex-grow"></div>
                     <p class="text-sm font-light px-4 pb-4 text-left mb-4"><a href="${v.link}">See If You Qualify for Compensation</a></p>
                     <div class="flex items-center justify-center button">
                         <a href="${v.link}" class="flex items-center text-white">
