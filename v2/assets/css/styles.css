@@ -150,11 +150,11 @@ body, h1, h2, h3, h4, h5, h6, p {
 
 @keyframes spin {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -165,8 +165,8 @@ body, h1, h2, h3, h4, h5, h6, p {
 /* Responsive styles */
 @media (max-width: 768px) {
   .container {
-      padding-left: 20px;
-      padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .header span {
