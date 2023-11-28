@@ -14,7 +14,7 @@ jQuery(function() {
                 jQuery("#verticals").append(`   
                 <div class="thumbnail p-0 flex flex-col relative">
                     <div class="mb-2 relative thumb-title">
-                        <img src="../assets/images/${v.vertical_id}.png" alt="Image 1" class="mb-2">
+                        <img src="/assets/images/${v.vertical_id}.png" alt="Image 1" class="mb-2">
                         <h3 class="absolute top-30 left-0 right-0 bottom-10 flex items-center justify-center text-xl font-semibold mb-0 col-title">${v.name}</h3>
                     </div>
                     <p class="text-l font-medium leading-6 p-4 text-left mb-2">${v.title}</p>
